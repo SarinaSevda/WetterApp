@@ -64,3 +64,9 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.footer-text {
+  border-top: 1px solid #f9f7fe;
+  padding-top: 30px;
+  font-size: 12px;
+  text-align: center;
+}
