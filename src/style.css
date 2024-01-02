@@ -67,6 +67,15 @@ p {
   margin: -14px 0px 33px 0px;
   color: rgba(39, 33, 66, 0.4);
 }
+.condition {
+  margin: 10px 10px 10px 0px;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #e9f4ea;
+  border-radius: 20px;
+  color: #757575;
+}
 .humidity {
   margin: 10px 10px 10px 0px;
   padding: 15px;
