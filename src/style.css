@@ -46,3 +46,21 @@ p {
   margin-top: 1px;
   color: rgba(39, 33, 66, 0.4);
 }
+.humidity {
+  padding: 15px;
+  padding-left: 19px;
+  padding-right: 19px;
+  margin: 10px 10px 10px 0px;
+  background-color: #e9f4ea;
+  border-radius: 20px;
+}
+.wind {
+  padding: 15px;
+  margin: 10px 10px 10px 0px;
+  background-color: #e9f4ea;
+  border-radius: 20px;
+}
+.current-temperature {
+  display: flex;
+  justify-content: space-between;
+}
