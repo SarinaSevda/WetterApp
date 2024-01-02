@@ -46,22 +46,6 @@ h1 {
   font-size: 45px;
   margin-bottom: 1px;
 }
-p {
-  margin-top: 1px;
-  color: rgba(39, 33, 66, 0.4);
-}
-.humidity {
-  padding: 15px;
-  padding-left: 19px;
-  padding-right: 19px;
-  background-color: #e9f4ea;
-  border-radius: 20px;
-}
-.wind {
-  padding: 15px;
-  background-color: #e9f4ea;
-  border-radius: 20px;
-}
 .current-temperature {
   font-weight: bold;
   margin-top: 24px;
@@ -79,9 +63,29 @@ p {
   position: relative;
   top: -27px;
 }
+p {
+  margin: -14px 0px 33px 0px;
+  color: rgba(39, 33, 66, 0.4);
+}
+.humidity {
+  margin: 10px 10px 10px 0px;
+  padding: 15px;
+  padding-left: 19px;
+  padding-right: 19px;
+  background-color: #e9f4ea;
+  border-radius: 20px;
+  color: #757575;
+}
+.wind {
+  padding: 15px;
+  background-color: #e9f4ea;
+  border-radius: 20px;
+  color: #757575;
+}
 .footer-text {
   border-top: 1px solid #f9f7fe;
   padding-top: 30px;
   font-size: 12px;
   text-align: center;
+  margin: 35px auto 20px;
 }
