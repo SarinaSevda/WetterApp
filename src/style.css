@@ -38,3 +38,11 @@ header {
   color: #1dad9b;
   border-color: #1dad9b;
 }
+h1 {
+  font-size: 45px;
+  margin-bottom: 1px;
+}
+p {
+  margin-top: 1px;
+  color: rgba(39, 33, 66, 0.4);
+}
