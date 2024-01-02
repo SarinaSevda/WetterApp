@@ -38,6 +38,10 @@ header {
   color: #1dad9b;
   border-color: #1dad9b;
 }
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+}
 h1 {
   font-size: 45px;
   margin-bottom: 1px;
@@ -50,19 +54,30 @@ p {
   padding: 15px;
   padding-left: 19px;
   padding-right: 19px;
-  margin: 10px 10px 10px 0px;
   background-color: #e9f4ea;
   border-radius: 20px;
 }
 .wind {
   padding: 15px;
-  margin: 10px 10px 10px 0px;
   background-color: #e9f4ea;
   border-radius: 20px;
 }
 .current-temperature {
-  display: flex;
-  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 24px;
+}
+.temperature-emoji {
+  font-size: 40px;
+  position: relative;
+  top: -6px;
+}
+.temperature-value {
+  font-size: 60px;
+}
+.temperature-unit {
+  font-size: 20px;
+  position: relative;
+  top: -27px;
 }
 .footer-text {
   border-top: 1px solid #f9f7fe;
