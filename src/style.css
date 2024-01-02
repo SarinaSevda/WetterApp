@@ -10,3 +10,25 @@ body {
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
+.search-input {
+  width: 75%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e9f4ea;
+}
+.search-button {
+  width: 24%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #1dad9b;
+  color: #ffff;
+  transition: 0.1s ease-in-out;
+}
+.search-button:hover {
+  background-color: #e9f4ea;
+  color: #1dad9b;
+}
