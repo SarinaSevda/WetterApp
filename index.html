@@ -9,9 +9,10 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
+        <form id="search-form">
           <input
             class="search-input"
+            id="search-input"
             type="search"
             placeholder="Enter a city"
             required
@@ -22,7 +23,7 @@
       <main>
         <div class="weather-details">
           <div>
-            <h1>Antalya</h1>
+            <h1 id="city">Antalya</h1>
           </div>
           <div class="current-temperature">
             <span class="temperature-emoji">🌤️ </span>
@@ -47,5 +48,6 @@
         </p>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
