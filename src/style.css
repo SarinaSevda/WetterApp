@@ -93,13 +93,39 @@ p {
   border-radius: 20px;
   color: #757575;
 }
+strong {
+  color: #1dad9b;
+}
+.weather-forecast {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  margin-bottom: 10px;
+}
+.weather-forecast-icon {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0px 10px;
+  color: rgba(39, 33, 66, 0.4);
+}
 .footer-text {
   border-top: 1px solid #f9f7fe;
   padding-top: 30px;
   font-size: 12px;
   text-align: center;
   margin: 50px auto 10px;
-}
-strong {
-  color: #1dad9b;
 }
